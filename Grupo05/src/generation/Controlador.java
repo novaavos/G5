@@ -11,11 +11,12 @@ public class Controlador {
 		Introducao i = new Introducao();
 		
 		Scanner l = new Scanner(System.in);
-		String resposta = "";
 		
 		Object[] options = {"Pfizer","CoronaVac", "AstraZeneca"};
 		
-		JOptionPane.showOptionDialog(null, 
+		i.intro();
+		
+		int resposta = JOptionPane.showOptionDialog(null, 
 				"Sobre qual vacina você quer saber?", //Mensagem
 				"Vamos falar sobre vacinas?",		  //Título
 				JOptionPane.YES_NO_CANCEL_OPTION,
@@ -25,6 +26,7 @@ public class Controlador {
 				null);								  //Opção de botão default
 		
 		
+		JOptionPane.showMessageDialog(null, "A mensagem selecionada foi: "+resposta);
 	}
 
 }
