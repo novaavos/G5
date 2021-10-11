@@ -19,6 +19,7 @@ public class Introducao {
 	Object options[] = {"Próximo>"};
 	
 	ImageIcon image = new ImageIcon("src/Imagens/vaccine.png");
+
 	
 	public void intro() {
 		
