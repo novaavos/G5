@@ -23,14 +23,14 @@ public class Introducao {
 	
 	public void intro() {
 		
-		int resposta = JOptionPane.showOptionDialog(null, 
-				mensagem, 							  //Mensagem
-				"Vamos falar sobre vacinas?",		  //Título
+		int resposta = JOptionPane.showOptionDialog(null, //frame
+				mensagem, 							      //Mensagem
+				"Vamos falar sobre vacinas?",		      //Título
 				JOptionPane.YES_NO_CANCEL_OPTION,
 				JOptionPane.PLAIN_MESSAGE,
-				image,								  //Icone
-				options,                              //Um vetor de opções para cada botão
-				null);								  //Opção de botão default
+				image,								      //Icone
+				options,                                  //Um vetor de opções para cada botão
+				null);								      //Opção de botão default
 		
 		
 	
