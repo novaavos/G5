@@ -1,10 +1,11 @@
 package generation;
 
 import javax.swing.ImageIcon;
+
 import javax.swing.JOptionPane;
 
 public class Introducao {
-
+   
 	String mensagem = "Olá, vamos falar sobre vacinas?\n"
 			+"As vacinas são o meio mais seguro e eficaz de nos protegermos contra certas doenças infecciosas,"
 			+ "\n"				
@@ -27,9 +28,11 @@ public class Introducao {
 				mensagem, 							  //Mensagem
 				"Vamos falar sobre vacinas?",		  //Título
 				JOptionPane.YES_NO_CANCEL_OPTION,
+			
 				JOptionPane.PLAIN_MESSAGE,
 				image,								  //Icone
-				options,                              //Um vetor de opções para cada botão
+				options,  
+				 //Um vetor de opções para cada botão
 				null);								  //Opção de botão default
 		
 		
