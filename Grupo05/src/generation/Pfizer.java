@@ -26,19 +26,26 @@ public class Pfizer{
 				"Pfizer - Biontech",                  //Título
 				JOptionPane.YES_NO_CANCEL_OPTION,
 				JOptionPane.PLAIN_MESSAGE,
-				null,								  //Icone
+				image,								  //Icone
 				option,                               //Um vetor de opções para cada botão
 				null);								  //Opção de botão default
 		
 		
 		switch (resposta) {
-		case 0:  JOptionPane.showMessageDialog(null, "Locais: Dor, Edema e Rubor no local da aplicação."
-				+ "\nSistêmicos: Fadiga, Febre, Calafrios, Cefaléia, Náusea, Artralgia, Mialgia, Diarreia."
-				+ "\nFonte: TeleSaude Rio Grande do Sul - UFGRS");  // como colocar titulo em cada caixinha do OptionPane? 
-		                                                            // Nao consigo incluir a imagem png.
-		break;
-		
-		case 1:  JOptionPane.showMessageDialog(null, "BioNTech, Fosun Pharma, Pfizer");
+			case 0:  JOptionPane.showMessageDialog(null, "Locais: Dor, Edema e Rubor no local da aplicação."
+					+ "\nSistêmicos: Fadiga, Febre, Calafrios, Cefaléia, Náusea, Artralgia, Mialgia, Diarreia."
+					+ "\nFonte: TeleSaude Rio Grande do Sul - UFGRS");  // como colocar titulo em cada caixinha do OptionPane? 
+			                                                            // Nao consigo incluir a imagem png.
+				intro();
+				break;
+			
+			case 1:  JOptionPane.showMessageDialog(null, "BioNTech, Fosun Pharma, Pfizer");
+				intro();
+				break;
+			case 2: Introducao i = new Introducao();
+					i.intro();
+					break;
+			
 		
 		
 		}

@@ -18,7 +18,6 @@ public class Controlador {
 		i.intro();
 		
 		int resposta = 0; 
-		while (resposta != 3) {
 	
 		 	resposta = JOptionPane.showOptionDialog(null, 
 				"Sobre qual vacina você quer saber?", //Mensagem
@@ -28,20 +27,18 @@ public class Controlador {
 				null,								  //Icone
 				options,                              //Um vetor de opções para cada botão
 				null);								  //Opção de botão default
+	//	JOptionPane.showMessageDialog(null, resposta);
 		
+	//	JOptionPane.showMessageDialog(null, "A mensagem selecionada foi: "+options[resposta]);
 		
-		JOptionPane.showMessageDialog(null, "A mensagem selecionada foi: "+options[resposta]);
-		
-	
-		
+		 	
+		 	
 		switch (resposta) {
-		case 0: p.intro();
-		break; 
-		
-		
+				case 0: p.intro();
+				break; 	
 		}
 		
-		}
+		
 
 		
 	}
