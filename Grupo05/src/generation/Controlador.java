@@ -19,7 +19,7 @@ public class Controlador {
 		
 		int resposta = 0; 
 	
-		 	resposta = JOptionPane.showOptionDialog(null, 
+		 	resposta = JOptionPane.showOptionDialog(null, //frame
 				"Sobre qual vacina você quer saber?", //Mensagem
 				"Vamos falar sobre vacinas?",         //Título
 				JOptionPane.YES_NO_CANCEL_OPTION,
