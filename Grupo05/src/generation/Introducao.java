@@ -1,36 +1,37 @@
 package generation;
 
 import javax.swing.ImageIcon;
+
 import javax.swing.JOptionPane;
 
 public class Introducao {
-
-	String mensagem = "Olá, vamos falar sobre vacinas?\n"
-			+"As vacinas são o meio mais seguro e eficaz de nos protegermos contra certas doenças infecciosas,"
+   
+	String mensagem = "Olï¿½, vamos falar sobre vacinas?\n"
+			+"As vacinas sï¿½o o meio mais seguro e eficaz de nos protegermos contra certas doenï¿½as infecciosas,"
 			+ "\n"				
-			+ "e são obtidas a partir de partículas do próprio agente agressor, sempre na forma atenuada (enfraquecida) ou inativada (morta).\n"	
-			+ "Quando nosso organismo é atacado por um vírus ou bactéria, nosso sistema imunológico — de defesa — dispara uma reação em cadeia"
+			+ "e sï¿½o obtidas a partir de partï¿½culas do prï¿½prio agente agressor, sempre na forma atenuada (enfraquecida) ou inativada (morta).\n"	
+			+ "Quando nosso organismo ï¿½ atacado por um vï¿½rus ou bactï¿½ria, nosso sistema imunolï¿½gico ï¿½ de defesa ï¿½ dispara uma reaï¿½ï¿½o em cadeia"
 			+ "\n"	
-			+ "com o objetivo de frear a ação desses agentes estranhos. Infelizmente, nem sempre essa ‘operação’ é bem-sucedida e, quando isso ocorre, ficamos doentes.\r\n"
-			+ "O que as vacinas fazem é se passarem por agentes infecciosos de forma a estimular a produção de nossas defesas, por meio de anticorpos específicos contra o “inimigo”."
-			+ "\nAssim, elas ensinam o nosso organismo a se defender de forma eficaz. Aí, quando o ataque de verdade acontece, a defesa é reativada por meio da memória do sistema imunológico. "
-			+ "\nÉ isso que vai fazer com que a ação inimiga seja muito limitada ou, como acontece na maioria das vezes, totalmente eliminada, antes que a doença se instale.";
+			+ "com o objetivo de frear a aï¿½ï¿½o desses agentes estranhos. Infelizmente, nem sempre essa ï¿½operaï¿½ï¿½oï¿½ ï¿½ bem-sucedida e, quando isso ocorre, ficamos doentes.\r\n"
+			+ "O que as vacinas fazem ï¿½ se passarem por agentes infecciosos de forma a estimular a produï¿½ï¿½o de nossas defesas, por meio de anticorpos especï¿½ficos contra o ï¿½inimigoï¿½."
+			+ "\nAssim, elas ensinam o nosso organismo a se defender de forma eficaz. Aï¿½, quando o ataque de verdade acontece, a defesa ï¿½ reativada por meio da memï¿½ria do sistema imunolï¿½gico. "
+			+ "\nï¿½ isso que vai fazer com que a aï¿½ï¿½o inimiga seja muito limitada ou, como acontece na maioria das vezes, totalmente eliminada, antes que a doenï¿½a se instale.";
 
-	Object options[] = {"Próximo>"};
+	Object options[] = {"Prï¿½ximo>"};
 	
 	ImageIcon image = new ImageIcon("src/Imagens/vaccine.png");
 
 	
 	public void intro() {
 		
-		int resposta = JOptionPane.showOptionDialog(null, //frame
-				mensagem, 							      //Mensagem
-				"Vamos falar sobre vacinas?",		      //Título
-				JOptionPane.YES_NO_CANCEL_OPTION,
+		int resposta = JOptionPane.showOptionDialog(null, 
+				mensagem, 							  //Mensagem
+				"Vamos falar sobre vacinas?",		  //Tï¿½tulo
+				JOptionPane.YES_NO_CANCEL_OPTION,	
 				JOptionPane.PLAIN_MESSAGE,
-				image,								      //Icone
-				options,                                  //Um vetor de opções para cada botão
-				null);								      //Opção de botão default
+				image,								  //Icone
+				options,  							  //Um vetor de opï¿½ï¿½es para cada botï¿½o
+				null);								  //Opï¿½ï¿½o de botï¿½o default
 		
 		
 	
