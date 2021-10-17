@@ -15,7 +15,7 @@ public class Covid {
 			+ "Atualmente, acomete mais de 100 países e territórios nos cinco continentes. Seus impactos ainda são inestimáveis, mas afetam direta e/ou indiretamente\n"
 			+ "a saúde e a economia da população mundial. "
 			+ "\nPor conta disso, é extremamente importante que tenhamos cuidado ao sair de casa, temos que nos cuidar, sempre que possível\n"
-			+ "lave as mãos, passe álcool em gel, e vacine-se, para assim, isso acabar o mais rápido possível!./n "
+			+ "lave as mãos, passe álcool em gel, e vacine-se, para assim, isso acabar o mais rápido possível!. "
 			+ "\nE falando em vacinas, vamos entender um pouco mais sobre elas?.";
 
 	Object options[] = {"Próximo>"};

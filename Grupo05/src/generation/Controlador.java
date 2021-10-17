@@ -14,52 +14,59 @@ public class Controlador {
 		Pfizer p = new Pfizer();
 		Janssen j = new Janssen();
 		Covid c = new Covid();
+		CriacaoVac cri = new CriacaoVac();
 		
 		Scanner l = new Scanner(System.in);
-		//Ordem das coisas
-		
-		c.covidMensagem();
-		i.intro();
-		escolhaVacinas();
-		
 		int resposta = 0; 
+		//Ordem das coisas
+
+		c.covidMensagem();
+	    cri.criacaoVac_();
+		escolhaVacinas();
 								      	 												   	
 
 		l.close();
 	}
 	
 	public static void escolhaVacinas() {
-		Object[] options = {"Pfizer","CoronaVac", "AstraZeneca", "Janssen"};
+		Object[] options = {"Pfizer","CoronaVac", "AstraZeneca", "Janssen", "Sair"};
 		Introducao i = new Introducao();
 		Pfizer p = new Pfizer();
 		Janssen j = new Janssen();
+	    Fabricantes fab = new Fabricantes();
 		
 		ImageIcon image = new ImageIcon("src/Imagens/vaccine.png");
 		ImageIcon qr = new ImageIcon("src/Imagens/qr-code.png");
 		
 	 	int resposta = JOptionPane.showOptionDialog(null,
-			"Sobre qual vacina você quer saber?",     
+	 		"Conheça um pouco mais sobre os fabricantes das vacinas distribuídas no Brasil. \n\nSobre qual fabricante você quer saber?\n\n",     
 			"Vamos falar sobre vacinas?",             
 			JOptionPane.YES_NO_CANCEL_OPTION,
 			JOptionPane.PLAIN_MESSAGE,
 			image,								      
 			options,                                  
 			null);	
-	 //	 JOptionPane.showMessageDialog(null, "Valor resposta: "+ resposta);
 	 	 
 			switch (resposta) {
 			case 0: 
 				p.intro();
 				break; 	
 			case 1: 
+				fab.coronaVac();
 				break;
 			case 2:
+				fab.astrazeneca();
 				break;
 			case 3:
 				j.intro();
 				break;
+			case 4:
+				JOptionPane.showMessageDialog(null, "","Créditos", JOptionPane.PLAIN_MESSAGE, qr);
+				System.out.println(resposta);
+				break;
 			case -1:
 				JOptionPane.showMessageDialog(null, "","Créditos", JOptionPane.PLAIN_MESSAGE, qr);
+				break;
 			}
 	}
 }
