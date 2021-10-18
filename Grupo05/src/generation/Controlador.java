@@ -15,8 +15,7 @@ public class Controlador {
 		Janssen j = new Janssen();
 		Covid c = new Covid();
 		CriacaoVac cri = new CriacaoVac();
-		
-		Scanner l = new Scanner(System.in);
+
 		int resposta = 0; 
 		//Ordem das coisas
 
@@ -25,7 +24,6 @@ public class Controlador {
 		escolhaVacinas();
 								      	 												   	
 
-		l.close();
 	}
 	
 	public static void escolhaVacinas() {

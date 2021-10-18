@@ -16,11 +16,11 @@ public class Covid {
 			+ "a saúde e a economia da população mundial. "
 			+ "\nPor conta disso, é extremamente importante que tenhamos cuidado ao sair de casa, temos que nos cuidar, sempre que possível\n"
 			+ "lave as mãos, passe álcool em gel, e vacine-se, para assim, isso acabar o mais rápido possível!. "
-			+ "\nE falando em vacinas, vamos entender um pouco mais sobre elas?.";
+			+ "\nE falando em vacinas, vamos entender um pouco mais sobre elas?";
 
 	Object options[] = {"Próximo>"};
 	
-	ImageIcon image = new ImageIcon("src/Imagens/covid.gif");
+	ImageIcon image = new ImageIcon("src/Imagens/icon.jpg");
 
 	
 	public void covidMensagem() {
