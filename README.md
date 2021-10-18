@@ -32,3 +32,7 @@ Aqui fica o nosso diagrama:
 Toda a documentação está aqui:
 </h3>
 https://docs.google.com/document/d/1Vpm9VpvzLPXgCxmfsvBXaA0NRcK3dJWmlNckr8MQNfE/edit?usp=sharing
+<h3>
+Apresentação:
+</h3>
+https://prezi.com/view/5ASLav3OdD9vngiyeqgd/
