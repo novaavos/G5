@@ -15,11 +15,13 @@ public class Controlador {
 		Janssen j = new Janssen();
 		Covid c = new Covid();
 		CriacaoVac cri = new CriacaoVac();
+		Prevencao pre = new Prevencao();
 
 		int resposta = 0; 
 		//Ordem das coisas
 
 		c.covidMensagem();
+		pre.prevencao();
 	    cri.criacaoVac_();
 		escolhaVacinas();
 								      	 												   	
