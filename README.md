@@ -28,3 +28,7 @@ Aqui fica o nosso diagrama:
 		Rafael Edgar Rodrigues
     <br>
 		Tobias Gustavo Soares 
+<h3>
+Toda a documentação está aqui:
+</h3>
+https://docs.google.com/document/d/1Vpm9VpvzLPXgCxmfsvBXaA0NRcK3dJWmlNckr8MQNfE/edit?usp=sharing
