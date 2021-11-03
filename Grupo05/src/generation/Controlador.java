@@ -40,7 +40,7 @@ public class Controlador {
 		
 	 	int resposta = JOptionPane.showOptionDialog(null,
 	 		"Conheça um pouco mais sobre os fabricantes das vacinas distribuídas no Brasil. \n\nSobre qual fabricante você quer saber?\n\n",     
-			"Vamos falar sobre vacinas?",             
+			"Vamos falar sobre vacinas??",             
 			JOptionPane.YES_NO_CANCEL_OPTION,
 			JOptionPane.PLAIN_MESSAGE,
 			image,								      
